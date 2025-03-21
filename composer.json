@@ -1,0 +1,39 @@
+{
+    "name": "yonoma/email-marketing",
+    "version": "1.0.0",
+    "description": "The official PHP client library for the Yonoma Email Marketing API",
+    "homepage": "https://yonoma.io",
+    "keywords": [
+        "yonoma",
+        "yonoma-api",
+        "email-api",
+        "email-sender",
+        "marketing-email",
+        "yonoma-php-sdk"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yonoma",
+            "homepage": "https://github.com/YonomaHQ/yonoma-php"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Yonoma\\": "src/Yonoma/"
+        }
+    },
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "path",
+            "url": "https://github.com/YonomaHQ/yonoma-php"
+        }
+    ]
+}
