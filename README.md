@@ -92,16 +92,14 @@ $response = $yonoma->tags->delete('Tag id');
 $response = $yonoma->contacts->create("list id", [
   "email" => "email@example.com",
   "status" => "Subscribed" | "Unsubscribed",
-  "data" => [
-      "firstName" => "Contact",
-      "lastName" => "One",
-      "phone" => "1234567890",
-      "address" => "123, NY street",
-      "city" => "NY City",
-      "state" => "NY",
-      "country" => "US",
-      "zipcode" => "10001"
-  ]
+  "firstName" => "Contact", //optional
+  "lastName" => "One", //optional
+  "phone" => "1234567890", //optional
+  "address" => "123, NY street", //optional
+  "city" => "NY City", //optional
+  "state" => "NY", //optional
+  "country" => "US", //optional
+  "zipcode" => "10001" //optional
 ]);
 ```
 #### Update contact
